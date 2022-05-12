@@ -16,13 +16,14 @@ body {
     height: 500px;
     width: 400px;
     margin: auto;
-    background-color: rgb(192, 201, 194);
+    background-color: #f84626;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+    border: solid 2px #d32626
 }
 
 .display-box {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:white;
+    background-color:rgb(218, 224, 226);
     border: solid black 0.5px;
     color: black;
     border-radius: 5px;
@@ -34,24 +35,24 @@ body {
 
 .button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(238, 101, 9);
-    color: white;
-    border: none;
+    background-color: rgb(199, 89, 15);
+    color: #fff;
+    border: solid 1px black;
     width: 80px;
-    border-radius: 5px;
-    height: 60%;
+    border-radius: 10px;
+    height: 70%;
     outline: none;
     font-size: 30px;
     cursor: pointer;
 }
 
-.op {
-    background-color: rgb(24, 6, 189);
+.button:hover {
+    background-color: rgb(138, 233, 240);
+    color: black;
+    transform: translateY(5px);
 }
 
-.buton:active {
-    background: rgba(0, 0, 0, 0.568);
-    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-    -moz-box-shadow: inset 0px 0px 5px #d32626;
-    box-shadow: inset 0px 0px 5px #c1c1c1;
+.op {
+    background-color: #105a85;
 }
+
