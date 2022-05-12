@@ -33,6 +33,22 @@ body {
     font-size: 22px;
 }
 
+#clear {
+    background-color: #f17975;
+}
+
+#clear:hover {
+    background-color: #eec4c3;
+}
+
+#equal {
+    background-color: #068b49;
+}
+
+#equal:hover {
+    background-color: #60a182;
+}
+
 .button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(199, 89, 15);
@@ -44,15 +60,20 @@ body {
     outline: none;
     font-size: 30px;
     cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
 }
 
 .button:hover {
-    background-color: rgb(138, 233, 240);
+    background-color: rgb(190, 135, 98);
     color: black;
     transform: translateY(5px);
 }
 
 .op {
     background-color: #105a85;
+}
+
+.op:hover {
+    background-color: #497188;
 }
 
