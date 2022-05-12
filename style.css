@@ -23,12 +23,12 @@ body {
 
 .display-box {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:rgb(218, 224, 226);
+    background-color:rgb(192, 200, 202);
     border: solid black 0.5px;
     color: black;
     border-radius: 5px;
     width: 95%;
-    height: 55%;
+    height: 80%;
     outline: none;
     font-size: 22px;
 }
