@@ -37,7 +37,7 @@ body {
     background-color: #f17975;
 }
 
-#clear:hover {
+#clear:active {
     background-color: #eec4c3;
 }
 
@@ -45,7 +45,7 @@ body {
     background-color: #068b49;
 }
 
-#equal:hover {
+#equal:active {
     background-color: #60a182;
 }
 
@@ -63,7 +63,7 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
 }
 
-.button:hover {
+.button:active {
     background-color: rgb(190, 135, 98);
     color: black;
     transform: translateY(5px);
@@ -73,7 +73,7 @@ body {
     background-color: #105a85;
 }
 
-.op:hover {
+.op:active {
     background-color: #497188;
 }
 
